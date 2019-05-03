@@ -5,14 +5,12 @@
     background-position: center;
     text-align: center;
     color: white;
+    width: 100%;
 }
 
-/* .about{
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-} */
+.about{
+    text-align: center;
+}
 
 .services{
     background-image: url("IMAGES/s_image.jpg");
@@ -23,28 +21,10 @@
     color: white;
 }
 
-/* .icons{
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-} */
-
-/* .portifolio{
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-} */
-
-.contact{
-    background-image: url("IMAGES/c_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+h3{
     text-align: center;
 }
-
-h2{
-    text-align: center;
+card{
+    padding: 20px;
+    width: 100%;
 }

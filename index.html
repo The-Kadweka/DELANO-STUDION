@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DELANO-studio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="welcome">
-        <img id="log" src="IMAGES/logo.png" alt="img1">
+        <img id="log" src="IMAGES/logo.png" class="img-fluid" alt="Responsive image">
 <h1>WELCOME</h1>
 <h2>TO DELANI STUDIO</h2>
 <p>AMAZING PEOPLE ARE MAKING DESIGNS IN A FUN ENVIRONMENT</p>
-<img src="IMAGES/mouse_click.png" alt="img2">
+<img src="IMAGES/mouse_click.png" class="img-fluid" alt="Responsive image">
     </div>
     <div class="about"> 
 <h2>ABOUT US</h2>
@@ -38,35 +39,89 @@
     </div>
     <div class="icons">
             <h2>WHAT WE DO</h2>
-            <img src="IMAGES/design_icon.png" alt="wed">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div id="design">
+            <img src="IMAGES/design_icon.png" alt="wed" class="img-fluid">
             <h4>DESIGN</h4>
-            <img src="IMAGES/dev_icon.png" alt="des">
+            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+        </div>
+            </div>
+            <div class="col-lg-4">
+            <img src="IMAGES/dev_icon.png" alt="des" class="img-fluid">
             <h4>DEVELOPMENT</h4>
-            <img src="IMAGES/product_icon.png" alt=dev>
+            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            </div>
+            <div class="col-lg-4">
+            <img src="IMAGES/product_icon.png" alt="dev" class="img-fluid">
             <h4>PRODUCT MANAGEMENT</h4>
+            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>
+            </div>
     </div>
-    <div class="portifolio">
+    </div>
             <h2>PORTIFOLIO</h2>
-            <img src="IMAGES/work4.jpg" alt="img" class="">
-            <img src="IMAGES/work1.jpg" alt="img">
-            <img src="IMAGES/work2.jpg" alt="img">
-            <img src="IMAGES/work3.jpg" alt="img">
-            <img src="IMAGES/work5.jpg" alt="img">
-            <img src="IMAGES/work6.jpg" alt="img">
-            <img src="IMAGES/work7.jpg" alt="img">
-            <img src="IMAGES/work8.jpg" alt="img">
+            <div class="container">
+                <div class="card-deck">
+                   <div class="card">
+            <img src="IMAGES/work4.jpg" alt="img" class="img-fluid">
+        </div>
+        <div class="card">
+                <img src="IMAGES/work1.jpg" alt="img" class="img-fluid">
+            </div>
+            <div class="card">
+                    <img src="IMAGES/work2.jpg" alt="img" class="img-fluid">
+                </div>
+                <div class="card">
+                        <img src="IMAGES/work3.jpg" alt="img" class="img-fluid">
+                    </div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="card-deck">
+                    <div class="card">
+            <img src="IMAGES/work5.jpg" alt="img" class="img-fluid">
+                </div>
+            <div class="card">
+            <img src="IMAGES/work6.jpg" alt="img" class="img-fluid">
+                </div>
+                <div class="card">
+            <img src="IMAGES/work7.jpg" alt="img" class="img-fluid">
+        </div>
+            <div class="card">
+            <img src="IMAGES/work8.jpg" alt="img" class="img-fluid">
+        </div>
     </div>
-    <div class="contact">
-            <h2>CONTACT US</h2>
     </div>
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+            <form class="text-center border border-light p-5">
+
+                    <p class="h4 mb-4">Contact us</p>
+                
+                    <!-- Name -->
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+                
+                    <!-- Email -->
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                    <!-- Message -->
+
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                    </div>
+
+                    <!-- Send button -->
+                    <button class="btn btn-info btn-block" type="submit">Send</button>
+                
+                </form>
+                  </form>
+    </div>
+    <img src="" alt="" class="img-fluid z-depth-1">
+    <img src="" alt="" class="img-fluid z-depth-1">
+    <img src="" alt="" class="img-fluid z-depth-1">
+    <img src="" alt="" class="img-fluid z-depth-1">
+    <img src="" alt="" class="img-fluid z-depth-1">
+    <img src="" alt="" class="img-fluid z-depth-1">
+    <img src="" alt="" class="img-fluid z-depth-1">
+    <img src="" alt="" class="img-fluid z-depth-1">
+    <img src="" alt="" class="img-fluid z-depth-1">
 </body>
 </html>
