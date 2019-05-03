@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center;
     text-align: center;
+    color: white;
 }
 
 /* .about{
@@ -40,5 +41,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
+}
+
+h2{
     text-align: center;
 }
