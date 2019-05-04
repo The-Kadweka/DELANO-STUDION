@@ -35,7 +35,7 @@ card{
 .img-container {
     float: left;
     width: 33.33%;
-    padding: 5%;
+    padding: 10%;
   }
   
   .clearfix::after {
@@ -59,3 +59,21 @@ card{
       background-repeat: no-repeat;
       background-position: center;
   }
+
+  .none{
+      display: none;
+  }
+
+  #size{
+    height: 30vh;
+    width: 50%;
+    margin-top: 25px;
+    opacity: 0.3;
+    }
+    
+    #size3{
+       opacity: 0.5;
+    }
+    placeholder{
+       color: white;
+    }

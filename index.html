@@ -7,10 +7,8 @@
     <title>DELANO-studio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <script
-  src="https://code.jquery.com/jquery-migrate-3.0.1.js"
-  integrity="sha256-VvnF+Zgpd00LL73P2XULYXEn6ROvoFaa/vbfoiFlZZ4="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 </head>
 <body>
     <div class="welcome">
@@ -45,21 +43,19 @@
             <h3>WHAT WE DO</h3>
             <div class="clearfix">
                 <div class="img-container">
-                <img src="IMAGES/design_icon.png" alt="Italy" style="width:100%">
+                <img src="IMAGES/design_icon.png" alt="Italy" class="img1" style="width:100%">
                 <h4>DESIGN</h4>
-             <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+             <p class="none">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
                 </div>
-            
-           
             <div class="img-container">
-            <img src="IMAGES/dev_icon.png" alt="des" style="width:100%">
+            <img src="IMAGES/dev_icon.png" alt="des"class="img2"style="width:100%">
             <h4>DEVELOPMENT</h4>
-            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            <p class="none">All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
         <div class="img-container">
-            <img src="IMAGES/product_icon.png" alt="dev" style="width:100%">
+            <img src="IMAGES/product_icon.png" alt="dev" class="img3"style="width:100%">
             <h4>PRODUCT MANAGEMENT</h4>
-            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>
+            <p class="none">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>
             </div>
         </div>
             <h3>PORTIFOLIO</h3>
@@ -78,8 +74,6 @@
                         <img src="IMAGES/work3.jpg" alt="img" class="img-fluid">
                     </div>
                     </div>
-                <!-- </div> -->
-                <!-- <div class="container"> -->
                 <div class="card-deck  sec2">
                     <div class="card">
             <img src="IMAGES/work5.jpg" alt="img" class="img-fluid">
@@ -96,16 +90,13 @@
     </div>
     </div>
     <div id="contact">
-                    <form class="text-center border border-light p-5">
-                    <p class="h4 mb-4">Contact us</p>
-                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
-                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
-                    <div class="form-group">
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
-                    </div>
-                    <button class="btn btn-info btn-block" type="submit">Send</button>
-                </form>
-    </div>
+            <h4>CONTACT US</h4>
+                <input type="text" id="size3"  placeholder="Name...">
+                <input type="text" id="size3"  placeholder="Email...."><br>
+                <input type="text" id="size" placeholder="Your message.....">
+              </div>
+      </div>
+              
     <div id="items">
     <img src="IMAGES/twitter.png" alt="" class="img-fluid z-depth-1">
     <img src="IMAGES/stumble_upon.png" alt="" class="img-fluid z-depth-1">
@@ -117,6 +108,17 @@
     <img src="IMAGES/behance.png" alt="" class="img-fluid z-depth-1">
     <img src="IMAGES/you_tube.png" alt="" class="img-fluid z-depth-1">
     </div>
-    <script src="script.js"></script>
+
+    <script>
+$( ".img1" ).click(function() {
+  $( "p" ).toggle();
+
+  $( ".img2" ).click(function() {
+  $( "p" ).toggle();
+
+  $( ".img3" ).click(function() {
+  $( "p" ).toggle();
+});
+</script>
 </body>
 </html>
