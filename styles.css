@@ -32,3 +32,30 @@ card{
 #items{
     text-align: center;
 }
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5%;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  h4{
+      text-align: center;
+      font-size: 2vh;
+      font-weight: bolder;
+  }
+
+  .sec2{
+      margin-top: 10%;
+  }
+
+  #contact{
+      background-image: url("IMAGES/c_image.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
