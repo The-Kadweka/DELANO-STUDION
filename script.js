@@ -1,9 +1,4 @@
-$( ".img1" ).click(function() {
-    $( ".p1" ).toggle();
+$( ".toggle1" ).click(function() {
+    $( ".p1" ).slideToggle();
+    $( ".p1" ).slideToggle();
   })
-    $( ".img2" ).click(function() {
-    $( ".p2" ).toggle();
-    })
-    $( ".img3" ).click(function() {
-    $( ".p3" ).toggle();
-  });

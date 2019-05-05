@@ -17,10 +17,11 @@
     background-image: url("IMAGES/s_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    /* text-align: center; */
+    padding: 100px;
+    text-align: center;
     color: white;
     height: 70vh;
+    font-weight: 200px;
 }
 
 h3{
@@ -62,9 +63,6 @@ card{
       background-position: center;
   }
 
-  .none{
-      display: none;
-  }
 
   #size{
     height: 30vh;
@@ -133,5 +131,3 @@ card{
         margin-top: 5%;
         margin-bottom: 2%;
       }
-
-     
