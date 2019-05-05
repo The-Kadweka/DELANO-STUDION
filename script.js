@@ -1,4 +1,6 @@
-$( ".toggle1" ).click(function() {
-    $( ".p1" ).slideToggle();
-    $( ".p1" ).slideToggle();
-  })
+$(document).ready(function() {
+  $(".toggle0").click(function() {
+    $("#none").toggle();
+    // $("#none").toggle();
+  });
+});

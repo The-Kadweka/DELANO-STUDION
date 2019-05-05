@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    text-align: center;
+ }
+ #sec-1 {
+    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 97vh;
+ 
+ }
+ 
+ .col-md-12 {
+    margin: 10px 0;
+    font-size: calc(1vw + 1vh + .5vmin);
+ }
+ #del {
+    padding-top: 20px;
+ }
+ .col-md-12 h1,#sec-3 h1 {
+  font-size: calc(3vw + 3vh + .5vmin);
+ }
+ 
+ #sec-3 {
+    font-size: calc(1vw + 1vh + .5vmin);
+    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true');
+    color: white;
+ }
+ .p1,.p2,.p3 {
+    display: none;
+ }
+ #sec-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70vw;
+    margin: 0 auto;
+    /* padding: 4.7px */
+ }
+ .A,.B,.C,.D {
+    width: 153px;
+    height: 153px;
+    margin: 5px;
+ }
+ 
+ .A {
+    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work1.jpg?raw=true');
+    background-size: cover
+ }
+ .B {
+    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work2.jpg?raw=true');
+    background-size: cover
+ }
+ .C {
+    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work3.jpg?raw=true');
+    background-size: cover
+ }
+ .D {
+    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work4.jpg?raw=true');
+    background-size: cover
+ }
+ .tm-container {
+    max-width: 70vw;
+    margin: 0 auto;
+ }
+ 
+ Message Input
+ 
+ Message Cartman Broflovski
