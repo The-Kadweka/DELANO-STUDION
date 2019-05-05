@@ -38,37 +38,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 70vw;
-    margin: 0 auto;
-    /* padding: 4.7px */
- }
- .A,.B,.C,.D {
-    width: 153px;
-    height: 153px;
-    margin: 5px;
  }
  
- .A {
-    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work1.jpg?raw=true');
-    background-size: cover
- }
- .B {
-    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work2.jpg?raw=true');
-    background-size: cover
- }
- .C {
-    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work3.jpg?raw=true');
-    background-size: cover
- }
- .D {
-    background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work4.jpg?raw=true');
-    background-size: cover
- }
  .tm-container {
     max-width: 70vw;
     margin: 0 auto;
  }
- 
- Message Input
- 
- Message Cartman Broflovski
+
+ .A,.B,.C,.D{
+    padding: 10%;
+ }

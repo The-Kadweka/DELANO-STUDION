@@ -13,6 +13,17 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+   <!-- SCRIPTS -->
+   <script src="script.js"></script>
+   <!-- JQuery -->
+   <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script type="text/javascript" src="js/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script type="text/javascript" src="js/mdb.min.js"></script>
+  
 </head>
 <body>
   <!-- Start your project here-->
@@ -60,29 +71,29 @@
       <div class="col-md-12">
           <h1>WHAT WE DO</h1>
       </div>
-    <div class="col">
+    <div class="col  clickable">
         <h3>DESIGN</h3>
-      <div class="p1">
-          <p>
-                Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+        <div class="hide">
+          <!-- <p class=" p1 "> -->
+               <p> Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                 Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
           </p>
-      </div>
+        </div>
       <div class='image1'>
             <img src='IMAGES/design_icon.png' >
       </div>
     </div>
-    <div class="col">
+    <div class="col6" id="clickable">
         <h3>DEVELOPMENT</h3>
-      <p class='p2'>
+      <p class='p2  hide'>
             All engineers are fluent in the latest enterprise, mobile and web development technologies.
             They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.            
       </p>
        <img src='IMAGES/dev_icon.png' class='image2'>
     </div>
-    <div class="col">
+    <div class="col  clickable">
         <h3>PRODUCT MANAGEMENT</h3>
-      <p class='p3'>
+      <p class='p3 hide'>
             Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
 This iterative process allows for changes as business requirements evolve.
       </p>
@@ -95,35 +106,43 @@ This iterative process allows for changes as business requirements evolve.
     <div class="row">
         <div class="col-md-3">
             <div class="A">
+                    <img src="IMAGES/work1.jpg" alt="" class="img-fluid" >
             </div>
         </div>
         <div class="col-md-3">
             <div class="B">
+            <img src="IMAGES/work2.jpg" alt="" class="img-fluid">
             </div>
         </div>
         <div class="col-md-3">
             <div class="C">
+                    <img src="IMAGES/work3.jpg" alt="" class="img-fluid">
             </div>
         </div>
         <div class="col-md-3">
             <div class="D">
+                    <img src="IMAGES/work4.jpg" alt="" class="img-fluid">
             </div>
         </div>
         </div>
         <div class="row">
             <div class="col-md-3">
+                    <img src="IMAGES/work5.jpg" alt="" class="img-fluid">
                 <div class="A">
                 </div>
             </div>
             <div class="col-md-3">
+                    <img src="IMAGES/work6.jpg" alt="" class="img-fluid">
                 <div class="B">
                 </div>
             </div>
             <div class="col-md-3">
+                    <img src="IMAGES/work7.jpg" alt="" class="img-fluid">
                 <div class="C">
                 </div>
             </div>
             <div class="col-md-3">
+                    <img src="IMAGES/work8.jpg" alt="" class="img-fluid">
                 <div class="D">
                 </div>
             </div>
@@ -144,23 +163,12 @@ This iterative process allows for changes as business requirements evolve.
     <!-- Email -->
     <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
     <!-- Subject -->
-    <label>Subject</label>
-    <select class="browser-default custom-select mb-4">
-        <option value="" disabled>Choose option</option>
-        <option value="1" selected>Feedback</option>
-        <option value="2">Report a bug</option>
-        <option value="3">Feature request</option>
-        <option value="4">Feature request</option>
-    </select>
     <!-- Message -->
     <div class="form-group">
         <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
     </div>
     <!-- Copy -->
-    <div class="custom-control custom-checkbox mb-4">
-        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
-    </div>
+        
     <!-- Send button -->
     <button class="btn btn-info btn-block" type="submit">Send</button>
 </form>
@@ -168,16 +176,7 @@ This iterative process allows for changes as business requirements evolve.
         </div>
     </div>
   <!-- /Start your project here-->
-  <!-- SCRIPTS -->
-  <script src="scripts.js"></script>
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
+ 
 </body>
 </html>
 
