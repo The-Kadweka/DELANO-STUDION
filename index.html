@@ -161,25 +161,34 @@ This iterative process allows for changes as business requirements evolve.
                 <h3>CONTACT US</h3>
             </div>
         </div> -->
-        <div class="tm-container">
-            <!-- Default form contact -->
-<form class="text-center border border-light p-5">
-    <h3 class="h4 mb-4">Contact us</h3>
-    <!-- Name -->
-    <input type="text" id="defaultContactForm" name="name attr" class="form-control mb-4" id="USER" placeholder="Name....">
-    <!-- Email -->
-    <input type="text" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail....">
-    <!-- Subject -->
-    <!-- Message -->
-    <div class="form-group">
-        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
-    </div>
-    <!-- Copy -->
-        
-    <!-- Send button -->
-   
-</form>
-<button class="btn btn-info btn-block  clickme" type="submit">Send</button>
+        <!-- contact section -->
+   <div class="container-fluid " id="contact">
+        <h3 class="text-center con">CONTACT US</h3>
+        <div class="row d-flex justify-content-center">
+            <form class="form-row mb-4">
+                <!-- first input form -->
+                <div class="col-md-6">
+                    <input type="text" name="Name" placeholder="Name...." class="form control" id="nameDetail">
+                </div>
+                <!-- second input form -->
+                <div class="col-md-6">
+                    <input type="email" name="Email" placeholder="Email...." class="form control">
+                </div>
+            </form>
+        </div>
+        <div class="row d-flex justify-content-center alefo">
+            <form class="form-row mb-4">
+                <!-- textarea  -->
+                <div class="col text-center">
+                    <textarea name="message" id="meso" cols="60" rows="10" placeholder="Your message here"></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="row d-flex justify-content-center ">
+            <form>
+                <button type="submit" id="btns" class="btn btn-primary">Send</button>
+            </form>
+        </div>
 <!-- Default form contact -->
         </div>
     </div>

@@ -14,12 +14,11 @@ $(".clickable1").click(function(){
     $(".show3").slideToggle(1500);
   });
 
-  $(".clickMe").click(function(msa) {
-    var person = document.getElementById('USER').value;
-    alert(' Dear ' + ' esteemed ' + person + "we appreciate for you reaching us!!");
-    msa.preventDefault();
+  $("button").click(function(omonge) {
+    var client = document.getElementById('nameDetail').value;
+    alert(' Dear ' + ' esteemed ' + client + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
+    omonge.preventDefault();
 });
-
 //    reset my form
   $("button").on('click', function(){
     $('form').each(function(){

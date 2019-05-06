@@ -122,6 +122,13 @@
  width: 33.33%;
  }
 
+ #contact{
+    background-image: url("IMAGES/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10%;
+ }
+
 
 
 
