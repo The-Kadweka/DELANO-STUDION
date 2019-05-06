@@ -18,8 +18,9 @@
  .col-md-12 {
     margin: 10px 0;
     padding: 10%
-    font-size: calc(1vw + 1vh + .5vmin);
+    font-size  calc(1vw + 1vh + .5vmin);
  }
+
  #del {
     padding-top: 20px;
  }
@@ -81,14 +82,15 @@
  }
 
  .container:hover .image:hover {
-   opacity: 0.6;
+   opacity: 0.3;
    cursor: pointer;
    transition: 0.3s;
+   color: white;
  }
-
- .container:hover .middle {
-   opacity: 1;
- }
+ /* .middle:hover  {
+   opacity: 0.88;
+   color: white;
+ } */
 
  .image {
    opacity: 1;
@@ -116,6 +118,9 @@
     padding-bottom: 10%;
  }
  
+ .card{
+ width: 33.33%;
+ }
 
 
 

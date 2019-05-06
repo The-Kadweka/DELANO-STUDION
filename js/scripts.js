@@ -14,17 +14,15 @@ $(".clickable1").click(function(){
     $(".show3").slideToggle(1500);
   });
 
-
-
-
-$("button").click(function(event) {
-    event.preventDefault();
+  $(".clickMe").click(function(msa) {
     var person = document.getElementById('USER').value;
-    alert("We are greatfull " + person + ", for contacting us!.");
-  });
-  
-//   $("button").on('click', function(){
-//     $('form').each(function(){
-//       this.reset();
-//     });
-//   });
+    alert(' Dear ' + ' esteemed ' + person + "we appreciate for you reaching us!!");
+    msa.preventDefault();
+});
+
+//    reset my form
+  $("button").on('click', function(){
+    $('form').each(function(){
+      this.reset();
+    });
+});
